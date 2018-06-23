@@ -2,8 +2,6 @@
 const puppeteer = require("puppeteer");
 const colors = require('colors');
 const log = require('./logger');
-const devices = require('puppeteer/DeviceDescriptors');
-const iPhone = devices['iPhone 6'];
 
 (async function main(){
   try {
