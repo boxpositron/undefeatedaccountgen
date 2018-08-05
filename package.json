@@ -28,7 +28,7 @@
   "scripts": {
     "generate": "node app.js"
   },
-  "author": "miguel bet",
+  "author": "Ibia David",
   "license": "ISC",
   "repository": {
     "type": "git",
