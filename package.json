@@ -1,7 +1,7 @@
 {
-  "name": "auto",
+  "name": "undefeated-account-generator",
   "version": "1.0.0",
-  "description": "kith script",
+  "description": "Account generator for undefeated",
   "main": "app.js",
   "dependencies": {
     "colors": "^1.3.0",
@@ -13,6 +13,7 @@
     "ini": "^1.3.5",
     "jsonfile": "^2.4.0",
     "klaw": "^1.3.1",
+    "lodash": "^4.17.10",
     "path-exists": "^2.1.0",
     "pinkie": "^2.0.4",
     "pinkie-promise": "^2.0.1",
@@ -25,8 +26,22 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate": "node app.js"
   },
   "author": "miguel bet",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boxpositron/undefeatedaccountgen.git"
+  },
+  "keywords": [
+    "undefeated",
+    "account",
+    "account",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/boxpositron/undefeatedaccountgen/issues"
+  },
+  "homepage": "https://github.com/boxpositron/undefeatedaccountgen#readme"
 }
