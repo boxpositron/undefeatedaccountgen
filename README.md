@@ -16,7 +16,7 @@ cd undefeatedaccountgen
 npm install
 ```
 
-## Generation
+## Account Generation
 
 To begin account generation, navigate to the project directory with your preferred terminal application and enter the following command.
 
@@ -25,3 +25,17 @@ npm run generate
 ```
 
 By default, the accounts generated will be in the accounts.txt file present in the project directory.
+
+## Default Browser
+
+The browser used will default to Chromium.
+
+If you wish to run this with an existing installation of Google Chrome instead of Chromium,
+navigate to the address below in Google Chrome
+
+``` 
+ chrome://version/
+ ```
+
+ Copy the value of  **Executable Path** and paste it in the **CHROME_PATH** provided in the **app.js** file.
+
